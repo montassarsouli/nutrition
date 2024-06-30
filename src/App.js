@@ -1,15 +1,24 @@
-import Caroussel from "./components/Caroussel";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import React from "react";
 import Navbar from "./components/Navbar";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
-      <Hero />
+      <Body />
       <Footer />
-    </div>
+    </>
   );
 }
-
 export default App;
+/*
+<div
+        style={{
+          paddingTop: "88px",
+          height: "calc(100vh - 88px)",
+          backgroundColor: "red",
+        }}
+></div>
+*/
