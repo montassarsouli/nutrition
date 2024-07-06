@@ -10,7 +10,7 @@ import TopRating from "./components/body/TopRating";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Products />
+    <App />
   </React.StrictMode>
 );
 

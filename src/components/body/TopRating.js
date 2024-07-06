@@ -31,7 +31,6 @@ const TopRating = () => {
                 <FaStar key={index} className={`h-5 w-5 `} />
               ))}
             </div>
-            {/* Conditional rendering to show promotion if it's greater than 0 */}
             {product.promotion > 0 && (
               <div className="mt-2 bg-blue-100 text-blue-800 text-sm p-2 rounded-lg">
                 Promotion: {product.promotion}% off
