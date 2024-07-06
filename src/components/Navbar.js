@@ -8,18 +8,18 @@ const Navbar = () => {
     console.log("Searching for:", searchTerm);
   };
   return (
-    <nav className="bg-black p-4 px-40 fixed w-full">
+    <nav className="bg-black p-4 px-40 fixed w-full z-10">
       <div className="container mx-auto flex flex-1 items-center justify-between">
         <div className="text-white text-lg font-semibold flex items-center">
           <img
             src={LogoNutrition}
             alt="Nutrition Store"
-            className="mr-2 w-10 h-10"
+            className="mr-2 w-10 h-10 transition-transform duration-300 hover:scale-110"
           />
           <h3>Nutrition Store</h3>
         </div>
-        <ul className="flex">
-          <li className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+        <ul className="flex cursor-pointer">
+          <li className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium transition-colors duration-300">
             Accueil
           </li>
           <li className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
@@ -45,7 +45,6 @@ const Navbar = () => {
             className="absolute right-2 top-2 w-6 h-6 text-white"
           >
             <FaSearch className="text-black w-6 h-6" />
-            {/* Using the React Icon here */}
           </button>
         </div>
       </div>

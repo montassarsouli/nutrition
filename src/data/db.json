@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "Maximum Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748021/product_28_ozywqv.jpg",
+    "description": "Optimum Nutrition Gold Standard 100% Whey Protein",
+    "price": "100 DNT",
+    "rating": 4,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 2,
+    "name": "Elite Casein",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748021/product_26_olwj5k.jpg",
+    "description": "Dymatize Elite Casein",
+    "price": "80 DNT",
+    "rating": 4.5,
+    "inStock": true,
+    "promotion": 5
+  },
+  {
+    "id": 3,
+    "name": "MuscleTech Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748019/product_25_lbnu1d.jpg",
+    "description": "MuscleTech NitroTech Whey Protein",
+    "price": "90 DNT",
+    "rating": 4.2,
+    "inStock": false,
+    "promotion": 15
+  },
+  {
+    "id": 4,
+    "name": "Vegan Protein",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748019/product_24_oh7sjy.jpg",
+    "description": "Orgain Organic Plant-Based Protein Powder",
+    "price": "70 DNT",
+    "rating": 4.3,
+    "inStock": true,
+    "promotion": 20
+  },
+  {
+    "id": 5,
+    "name": "Isolate Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748019/product_23_c0sjda.jpg",
+    "description": "Isopure Zero Carb Protein Powder",
+    "price": "110 DNT",
+    "rating": 4.6,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 6,
+    "name": "Pure Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748018/product_22_rvkplg.jpg",
+    "description": "MyProtein Impact Whey Isolate",
+    "price": "85 DNT",
+    "rating": 4.1,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 7,
+    "name": "Super Mass Gainer",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748017/product_21_pv89yb.jpg",
+    "description": "Dymatize Super Mass Gainer",
+    "price": "120 DNT",
+    "rating": 4.4,
+    "inStock": true,
+    "promotion": 8
+  },
+  {
+    "id": 8,
+    "name": "Vegan Blend",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748017/product_20_lrahqq.jpg",
+    "description": "Vega Protein & Greens",
+    "price": "75 DNT",
+    "rating": 4.2,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 9,
+    "name": "Casein Nighttime",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748016/product_19_lqyfur.jpg",
+    "description": "Optimum Nutrition Casein Protein",
+    "price": "95 DNT",
+    "rating": 4.5,
+    "inStock": true,
+    "promotion": 3
+  },
+  {
+    "id": 10,
+    "name": "Keto Protein",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748015/product_18_gdij15.jpg",
+    "description": "Ancient Nutrition Keto Protein",
+    "price": "105 DNT",
+    "rating": 4.3,
+    "inStock": false,
+    "promotion": 18
+  },
+  {
+    "id": 11,
+    "name": "Performance Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748015/product_17_g8donp.jpg",
+    "description": "BSN Syntha-6",
+    "price": "95 DNT",
+    "rating": 4.4,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 12,
+    "name": "Grass-Fed Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748015/product_16_mgwqrf.jpg",
+    "description": "Garden of Life Sport Grass-Fed Whey",
+    "price": "110 DNT",
+    "rating": 4.6,
+    "inStock": true,
+    "promotion": 22
+  },
+  {
+    "id": 13,
+    "name": "Maximum Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748014/product_15_cau9ds.jpg",
+    "description": "Optimum Nutrition Gold Standard 100% Whey Protein",
+    "price": "100 DNT",
+    "rating": 4,
+    "inStock": true,
+    "promotion": 6
+  },
+  {
+    "id": 14,
+    "name": "Elite Casein",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748013/product_14_mv8tmy.jpg",
+    "description": "Dymatize Elite Casein",
+    "price": "80 DNT",
+    "rating": 4.5,
+    "inStock": true,
+    "promotion": 13
+  },
+  {
+    "id": 15,
+    "name": "MuscleTech Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748013/product_13_in9gjl.jpg",
+    "description": "MuscleTech NitroTech Whey Protein",
+    "price": "90 DNT",
+    "rating": 4.2,
+    "inStock": false,
+    "promotion": 0
+  },
+  {
+    "id": 16,
+    "name": "Vegan Protein",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748012/product_12_cemi0c.jpg",
+    "description": "Orgain Organic Plant-Based Protein Powder",
+    "price": "70 DNT",
+    "rating": 4.3,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 17,
+    "name": "Isolate Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748012/product_8_xyznf9.jpg",
+    "description": "Isopure Zero Carb Protein Powder",
+    "price": "110 DNT",
+    "rating": 4.6,
+    "inStock": true,
+    "promotion": 16
+  },
+  {
+    "id": 18,
+    "name": "Pure Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748012/product_10_f39pdb.jpg",
+    "description": "MyProtein Impact Whey Isolate",
+    "price": "85 DNT",
+    "rating": 4.1,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 19,
+    "name": "Super Mass Gainer",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748011/product_7_hd6uc1.jpg",
+    "description": "Dymatize Super Mass Gainer",
+    "price": "120 DNT",
+    "rating": 4.4,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 20,
+    "name": "Vegan Blend",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748011/product_5_blzm0p.jpg",
+    "description": "Vega Protein & Greens",
+    "price": "75 DNT",
+    "rating": 4.2,
+    "inStock": true,
+    "promotion": 14
+  },
+  {
+    "id": 21,
+    "name": "Casein Nighttime",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748011/product_6_dorsml.jpg",
+    "description": "Optimum Nutrition Casein Protein",
+    "price": "95 DNT",
+    "rating": 4.5,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 22,
+    "name": "Keto Protein",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748010/product_2_rvnvao.jpg",
+    "description": "Ancient Nutrition Keto Protein",
+    "price": "105 DNT",
+    "rating": 4.3,
+    "inStock": false,
+    "promotion": 0
+  },
+  {
+    "id": 23,
+    "name": "Performance Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748010/product_3_qwbauv.jpg",
+    "description": "BSN Syntha-6",
+    "price": "95 DNT",
+    "rating": 4.4,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 24,
+    "name": "Grass-Fed Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748009/product_1_zh2ins.jpg",
+    "description": "Garden of Life Sport Grass-Fed Whey",
+    "price": "110 DNT",
+    "rating": 4.6,
+    "inStock": true,
+    "promotion": 0
+  },
+  {
+    "id": 25,
+    "name": "Maximum Whey",
+    "image": "https://res.cloudinary.com/deevc5g1r/image/upload/v1719748012/product_10_f39pdb.jpg",
+    "description": "Optimum Nutrition Gold Standard 100% Whey Protein",
+    "price": "100 DNT",
+    "rating": 4,
+    "inStock": true,
+    "promotion": 30
+  }
+]
