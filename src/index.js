@@ -26,7 +26,6 @@ const router = createBrowserRouter([
         path: "/boutique",
         element: <Products />,
       },
-
       {
         path: "/boutique/:id",
         element: <SingleProduct />,
