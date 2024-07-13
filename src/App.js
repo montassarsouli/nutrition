@@ -1,17 +1,16 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Body from "./components/Body";
+
 import Footer from "./components/Footer";
-import TopRating from "./components/body/TopRating";
+
 import Products from "./components/Products";
+import { Outlet } from "react-router";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Body />
-      <TopRating />
-      <Products />
+      <Outlet />
       <Footer />
     </>
   );

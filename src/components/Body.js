@@ -1,6 +1,6 @@
 import React from "react";
 import guyPowder from "../assets/images/guy-powder.png";
-import TopRatedProducts from "./body/TopRating";
+import TopRating from "./body/TopRating";
 
 const Body = () => {
   return (

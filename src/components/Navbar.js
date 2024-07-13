@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import LogoNutrition from "../assets/icons/nutritionLogo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -19,18 +20,30 @@ const Navbar = () => {
           <h3>Nutrition Store</h3>
         </div>
         <ul className="flex cursor-pointer">
-          <li className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium transition-colors duration-300">
+          <Link
+            to="/"
+            className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium transition-colors duration-300"
+          >
             Accueil
-          </li>
-          <li className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+          </Link>
+          <Link
+            to="/boutique"
+            className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+          >
             Boutique
-          </li>
-          <li className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+          </Link>
+          <Link
+            to="/services"
+            className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+          >
             Services
-          </li>
-          <li className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+          </Link>
+          <Link
+            to="/contact"
+            className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+          >
             Contact
-          </li>
+          </Link>
         </ul>
         <div className="relative">
           <input

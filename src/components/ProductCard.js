@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
         <p className="text-gray-700 text-base">
           Description: {product.description}
         </p>
-        <p className="text-gray-700 text-base">Prix: {product.price}</p>
+        <p className="text-gray-700 text-base">Prix: {product.price} DNT</p>
         <p className="text-gray-700 text-base">Rating: {product.rating}</p>
         <p className={`text-base ${stockClass}`}>
           En stock: {product.inStock ? "Oui" : "Non"}

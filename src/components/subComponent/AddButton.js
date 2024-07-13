@@ -6,7 +6,7 @@ const AddButton = ({ product }) => {
     : "hover:bg-red-700";
   return (
     <button
-      className={`bg-blue-500 ${buttonHoverClass} text-white font-bold py-2 px-4 rounded end-0`}
+      className={`bg-blue-500 ${buttonHoverClass} text-white font-bold py-1 px-4 rounded-lg end-0 w-full mt-2`}
     >
       Ajouter au panier
     </button>
