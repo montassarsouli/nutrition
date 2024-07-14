@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, FaShoppingCart } from "react-icons/fa";
 import LogoNutrition from "../assets/icons/nutritionLogo.png";
 import { Link } from "react-router-dom";
 
@@ -60,6 +60,10 @@ const Navbar = () => {
             <FaSearch className="text-black w-6 h-6" />
           </button>
         </div>
+        <Link to="/cart" className="text-white text-lg">
+          <FaShoppingCart className="text-yellow-400 w-8 h-8" />
+          Panier
+        </Link>
       </div>
     </nav>
   );

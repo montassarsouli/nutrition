@@ -4,6 +4,8 @@ import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Provider } from "react-redux";
+
 import App from "./App";
 import NotFoundPage from "./components/pages/NotFoundPage";
 import Products from "./components/Products";
@@ -11,6 +13,8 @@ import SingleProduct from "./components/pages/SingleProduct";
 import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
+import store from "./redux/store";
+import Cart from "./components/pages/Cart";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/boutique",
         element: <Products />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
       {
         path: "/boutique/:id",
@@ -47,7 +55,9 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
 );
 
