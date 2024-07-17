@@ -1,16 +1,17 @@
 import { useSelector } from "react-redux";
-import { FaStar } from "react-icons/fa";
+import { IoIosCloseCircle } from "react-icons/io";
 
-const ProductCard = () => {
+const Cart = () => {
   const cart = useSelector((state) => state.product.products);
-  console.log(cart);
+  const total = useSelector((state) => state.product.total);
+  console.log(cart, cart[0]);
 
   return (
-    <div>
-      {cart.map((product) => {
-        <div className="flex items-center justify-center h-screen">
-          <div className="flex justify-center items-center min-h-screen bg-gray-100 pt-24">
-            <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white flex">
+    <div className="flex pt-24">
+      <div className="w-2/3 grid grid-cols-2 gap-4">
+        {cart.map((product) => (
+          <div className="bg-gray-100">
+            <div className="rounded-lg overflow-hidden shadow-lg bg-white flex">
               <img
                 className="w-80 h-40 object-cover"
                 src={product.image}
@@ -30,11 +31,28 @@ const ProductCard = () => {
                 </div>
               </div>
             </div>
+            <IoIosCloseCircle />
           </div>
-        </div>;
-      })}
+        ))}
+      </div>
+      <div className="lg:w-1/3 w-full bg-gray-100 p-4 rounded-lg shadow-lg mt-6 lg:mt-0">
+        <h2 className="text-center text-xl font-bold mb-4">Produits</h2>
+        {cart.map((product) => (
+          <div
+            key={product.id}
+            className="flex justify-between px-4 py-2 border-b border-gray-300"
+          >
+            <div>{product.name}</div>
+            <div>{product.price} DNT</div>
+          </div>
+        ))}
+        <div className="flex justify-between px-4 py-2 mt-4 text-xl font-bold">
+          <div>Total</div>
+          <div>{total} DNT</div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default ProductCard;
+export default Cart;
